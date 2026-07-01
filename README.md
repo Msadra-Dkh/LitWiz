@@ -61,3 +61,4 @@
 ---
 
 ## 📄 License
+MIT License
