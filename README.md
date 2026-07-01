@@ -25,7 +25,10 @@
 
 ## 📸 Screenshot
 
-> Screenshot will be added soon.
+<p> <img src="assets/Screenshots/english-persian"> </p>
+<p> <img src="assets/Screenshots/english-persian-fix"> </p>
+<p> <img src="assets/Screenshots/persian-english"> </p>
+<p> <img src="assets/Screenshots/persian-english-fix"> </p>
 
 ---
 
