@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/Magic-Wizo" width="180">
+  <img src="assets/Magic-Wizo.png" width="180">
 </p>
 
 # 🧙 LitWiz
