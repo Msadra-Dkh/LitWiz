@@ -1,0 +1,17 @@
+# Virtual Environment
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Build
+build/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
