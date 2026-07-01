@@ -23,13 +23,29 @@
 
 ---
 
-## 📸 Screenshot
+## 📸 Screenshots
 
-<p> <img src="assets/Screenshots/english-persian"> </p>
-<p> <img src="assets/Screenshots/english-persian-fix"> </p>
-<p> <img src="assets/Screenshots/persian-english"> </p>
-<p> <img src="assets/Screenshots/persian-english-fix"> </p>
+### English → Persian
 
+<p align="center">
+  <img src="assets/Screenshots/english-persian.jpg" width="45%">
+  <img src="assets/Screenshots/english-persian-fix.jpg" width="45%">
+</p>
+
+<p align="center">
+Before &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; After
+</p>
+
+### Persian → English
+
+<p align="center">
+  <img src="assets/Screenshots/persian-english.jpg" width="45%">
+  <img src="assets/Screenshots/persian-english-fix.jpg" width="45%">
+</p>
+
+<p align="center">
+Before &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; After
+</p>
 ---
 
 ## 📋 Requirements
