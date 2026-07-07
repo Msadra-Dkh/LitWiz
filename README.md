@@ -1,3 +1,4 @@
+
 <p align="center">
   <img src="assets/Magic-Wizo.png" width="180">
 </p>
@@ -12,7 +13,7 @@
 ![Version](https://img.shields.io/badge/version-v0.2.0-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![Python](https://img.shields.io/badge/python-3.13-blue)
-![Status](https://img.shields.io/badge/status-mvp-green)
+![Status](https://img.shields.io/badge/status-MVP-green)
 
 ---
 
@@ -83,4 +84,5 @@ Before &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 ---
 
 ## 📄 License
+
 MIT License
