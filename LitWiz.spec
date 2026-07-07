@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['LitWiz.py'],
+    ['src\\LitWiz.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -35,5 +35,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['LitWiz(1).ico'],
+    icon=['assets\\icon.ico'],
 )

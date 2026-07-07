@@ -1,15 +1,20 @@
-#START
+# START V0.1.0
 
-#LibrarZzz!
+# LibrarZzz / FileZzz!
 #----------------------------------------------------------------------------------#
 import keyboard
 import pyperclip
 import time
+
+import keyboard_layout
+import keyboardlangs
 #----------------------------------------------------------------------------------#
 
+# CONSTANTZzz!
+#----------------------------------------------------------------------------------#
+#----------------------------------------------------------------------------------#
 
-
-#DicZzz!
+# DicZzz!
 #----------------------------------------------------------------------------------#
 en_to_fa = {
     'q':'ض', 'w':'ص', 'e':'ث', 'r':'ق', 't':'ف', 'y':'غ', 'u':'ع',
@@ -39,7 +44,7 @@ fa_to_en = {
 
 
 
-#FunciZzz!
+# FunciZzz!
 #----------------------------------------------------------------------------------#
 def convert_the_text ():  
     '''
@@ -58,15 +63,15 @@ def convert_the_text ():
         find_lang_char : a meaningful character of 'clean_input' for choosing the true dictionary
     '''
 
-    #saving clipboard
+    # saving clipboard
     old_clipboard = pyperclip.paste()
 
-    #update clipboard
+    # update clipboard
     pyperclip.copy("")
     keyboard.press_and_release('ctrl+c')
     time.sleep(0.07)
 
-    #getting selected string from user
+    # getting selected string from user
     text_input = pyperclip.paste()
 
     converted_text = ""
@@ -79,17 +84,21 @@ def convert_the_text ():
         #find the true dic
         for find_lang_char in clean_input:
 
-            #FA to EN
+            # FA to EN
             if find_lang_char in fa_to_en :
                 convert_dic = fa_to_en
+                keyboard_layout.switch_layout(keyboardlangs.ENGLISH_LAYOUT)
+
                 break
 
-            #EN to FA
+            # EN to FA
             elif find_lang_char in en_to_fa :
                 convert_dic = en_to_fa
+                keyboard_layout.switch_layout(keyboardlangs.PERSIAN_LAYOUT)
+
                 break
         
-        #converting the input and pasting
+        # converting the input and pasting / V0.1.0: Changing keyboard layout
         if convert_dic :
             converted_text = ''.join(
                 convert_dic.get(lit, lit) for lit in text_input
@@ -98,17 +107,20 @@ def convert_the_text ():
             pyperclip.copy(converted_text)
             keyboard.press_and_release('ctrl+v')
             time.sleep(0.05)
-    ## restore clipboard
+
+    # restore clipboard
     pyperclip.copy(old_clipboard)
 #----------------------------------------------------------------------------------#
 
 
 
-#Main_Idea
+# Main_Idea
 #----------------------------------------------------------------------------------#
-#HotKeyZzz!
+# HotKeyZzz!
 keyboard.add_hotkey('f7' , convert_the_text)
+keyboard.add_hotkey('f8' , convert_the_text)
+keyboard.add_hotkey('ctrl+shift+w' , convert_the_text)
 keyboard.wait()
 #----------------------------------------------------------------------------------#
 
-#the END
+# the END
