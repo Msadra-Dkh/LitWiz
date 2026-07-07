@@ -7,7 +7,7 @@
 
 > ✨ A little wizard using light magic to fix mistyped text.
 
-> A Windows utility for converting selected text between Persian and English keyboard layouts.
+> A Windows utility for converting selected text between Persian and English keyboard layouts.  
 > Version 0.2.0: Now I magically switch your keyboard layout! 🧙✨
 
 ![Version](https://img.shields.io/badge/version-v0.2.0-blue)
@@ -19,7 +19,7 @@
 
 ## ✨ Features
 
-- 🌐 Automatically switch keyboard layout after conversion
+- 🌐 Automatically switch keyboard layout after conversion  
 
 - 🔄 Convert selected text instantly
 - ⌨️ Global hotkeys (F7, F8, Ctrl+Shift+W)
