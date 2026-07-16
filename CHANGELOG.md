@@ -1,9 +1,11 @@
 # Changelog
 
-## v0.1.0
+## v0.2.0
+- Added automatic keyboard layout switching
+- Added F8 and Ctrl+Shift+W hotkeys
+- Updated README and screenshots
 
-### Added
+## v0.1.0
 - Initial MVP release
-- Convert selected text between Persian and English keyboard layouts
+- Text conversion between Persian and English
 - Global F7 hotkey
-- Background execution

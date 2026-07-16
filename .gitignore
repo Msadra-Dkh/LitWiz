@@ -1,17 +1,21 @@
-# Virtual Environment
+# Virtual environment
 venv/
+.venv/
 
-# Python
+# Python cache
 __pycache__/
 *.py[cod]
 
-# Build
+# Build outputs
 build/
 dist/
 
-# IDE
-.vscode/
-.idea/
+# PyInstaller cache
+*.log
 
-# Windows
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
 Thumbs.db
