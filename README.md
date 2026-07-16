@@ -6,13 +6,6 @@
 
 > ✨ Fix mistyped text with a little bit of magic.
 
-<<<<<<< HEAD
-> A Windows utility for converting selected text between Persian and English keyboard layouts.  
-> Version 0.2.0: Now I magically switch your keyboard layout! 🧙✨
-=======
-**LitWiz** is a lightweight Windows utility that instantly converts selected text typed with the wrong keyboard layout between **Persian (Farsi)** and **English**—without retyping.
->>>>>>> a090f90 (Release v0.3.0)
-
 **Version 0.3.0:** Now you see **Wizo** the magician!🧙✨
 
 ---
@@ -28,21 +21,6 @@
 ---
 
 # ✨ Features
-
-<<<<<<< HEAD
-- 🌐 Automatically switch keyboard layout after conversion  
-
-- 🔄 Convert selected text instantly
-- ⌨️ Global hotkeys (F7, F8, Ctrl+Shift+W)
-- 🖥️ Runs in the background
-=======
-- ⚡ Instantly convert mistyped text
-- 🌐 Automatically switch keyboard layout after conversion
-- ⌨️ Global hotkeys(Changable)
-- 🖥️ Runs quietly in the system tray
-- 💡 Lightweight and fast
-- 🎭 Have notification & sound
->>>>>>> a090f90 (Release v0.3.0)
 
 ---
 
