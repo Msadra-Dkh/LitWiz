@@ -22,6 +22,13 @@
 
 # ✨ Features
 
+- ⚡ Instantly convert mistyped text
+- 🌐 Automatically switch keyboard layout after conversion
+- ⌨️ Global hotkeys(Changable)
+- 🖥️ Runs quietly in the system tray
+- 💡 Lightweight and fast
+- 🎭 Have notification & sound
+
 ---
 
 # 📸 Screenshots
