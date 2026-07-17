@@ -1,6 +1,6 @@
 # Changelog
 
-## v0.2.0
+## v0.3.0
 - Added notifications and sounds
 - Added systemtray icon
 - Added setting
