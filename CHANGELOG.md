@@ -4,6 +4,7 @@
 - Added notifications and sounds
 - Added systemtray icon
 - Added setting
+- Deleted extra hotkeys
 - Updated README and screenshots
 
 ## v0.2.0
